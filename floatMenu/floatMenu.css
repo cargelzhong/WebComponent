@@ -1,0 +1,32 @@
+#floatMenu {
+    padding-top: 5px;
+    background: black;
+    position: absolute;
+    top: 30%;
+    right: 2%;
+    border-radius: 10px;
+    z-index: 999;
+    /*width: 80px; */
+}
+
+#floatMenu ul {
+    margin-left: 0px;
+    background-color: black;
+    list-style-type: none;
+    padding: 10px;
+}
+
+#floatMenu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+#floatMenu ul li a:hover {
+    color: #fff;
+    background-color: #ff8000;
+}
+
+#floatMenu ul.menu li a:hover {
+    border-color: #09f;
+}

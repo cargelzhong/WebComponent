@@ -1,0 +1,145 @@
+#nav {
+    display: block;
+}
+#topbar, #topbar ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+#topbar {
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+    opacity: 0.8;
+    z-index: 999;
+    background-color: #1C1C1C;
+    clear: both;
+    font-size: 20px;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+#topbar ul {
+    background-color: #222;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    -moz-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    -o-transform: scaleY(0);
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+}
+
+#topbar li {
+    list-style-type: none;
+    width: 15%;
+    float: left;
+    position: relative;
+}
+
+#topbar li a {
+    width: 100%;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-weight: normal;
+    height: 40px;
+    padding-top: 20px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000000;
+    text-align: center;
+}
+
+#topbar li:hover > a {
+    color: #FF4500;
+}
+
+#topbar li:hover, #topbar a:focus, #topbar a:hover, #topbar a:active {
+    background: none repeat scroll 0 0 #121212;
+    outline: 0 none;
+}
+
+#topbar li:hover ul.subs {
+    left: 0;
+    top: 60px;
+    width: 100%;
+    -moz-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+#topbar ul li {
+    background: none;
+    width: 100%;
+}
+
+#topbar ul li a {
+    width: 100%;
+    float: none;
+}
+
+#topbar ul li:hover > a {
+    background-color: #121212;
+    color: #FF4500;
+}
+
+#lavalamp {
+    background-color: #FF4500;
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 0px;
+    width: 15%;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+#lavalamp:hover {
+    -moz-transition-duration: 3000s;
+    -ms-transition-duration: 3000s;
+    -o-transition-duration: 3000s;
+    -webkit-transition-duration: 3000s;
+    transition-duration: 3000s;
+}
+
+
+/**
+#topbar li:nth-of-type(1):hover ~ #lavalamp {
+    left: 0;
+}
+
+#topbar li:nth-of-type(2):hover ~ #lavalamp {
+    left: 15%;
+}
+
+#topbar li:nth-of-type(3):hover ~ #lavalamp {
+    left: 30%;
+}
+
+#topbar li:nth-of-type(4):hover ~ #lavalamp {
+    left: 45%;
+}
+
+#topbar li:nth-of-type(5):hover ~ #lavalamp {
+    left: 60%;
+}
+
+#topbar li:nth-of-type(6):hover ~ #lavalamp {
+    left: 80%;
+}
+**/
+
+
+}
